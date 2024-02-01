@@ -1,0 +1,167 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+  overflow-x: hidden;
+  font-family: 'Roboto', sans-serif;
+}
+.navbar-brand {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+ 
+}
+#search{
+display: flex;
+margin-left: 55%;
+}
+
+#cd1:hover{
+    
+    box-shadow: 0px 0px 10px rgb(12, 12, 12);
+}
+#nav{
+    font-size: 250%;
+  }
+  #bar{
+    height: 100px;
+    position: sticky;
+    top: 0%;
+    z-index: 1;
+  }
+  .main{
+    font-family: 'Anton', sans-serif;
+    font-size: 600%;
+    margin-left: 5%;
+  }
+  .main1{
+    font-family: 'Anton', sans-serif;
+    font-size: 500%;
+    margin-left: 6%;
+  }
+  #d1{
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 40%;
+    height: 80%;
+    position: absolute;
+    top: 6%;
+  }
+  #sub{
+    font-size: 130%;
+  }
+  #img2{
+    background-image: url(https://images5.alphacoders.com/593/thumb-1920-593989.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #img2 p{
+    font-size: 150%;
+  }
+  .col-6 h1{
+    font-family: 'Rubik Glitch', cursive;
+     font-size: 50px;
+  }
+
+@media screen and (max-width:400px){
+
+  *{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+  overflow-x: hidden;
+}
+
+    #search{
+        display: flex;
+        margin-left: -0.5%;
+        width: 100%;
+      }
+      #sbtn{
+        margin-left: 3%;
+      }
+      #nav{
+        font-size: 20px;
+      }
+      #bar{
+        height: auto;
+        width: 100%;
+        position: none;
+    
+      }
+      #carouselExampleControls{
+        height: 400px;
+      }
+      #img1{
+        width: 100%;
+        height:400px ;
+      }
+      .main{
+        font-size: 200%;
+        margin-top: 10%;
+       
+      }
+      .main1{
+        font-size: 200%;
+       
+      }
+      #d1{
+        width: 80%;
+        position: absolute;
+    top: 2%;
+    left: -5%;
+      }
+      #sub{
+        font-size: 80%;
+      }
+      #d2{
+        display: flex;
+      }
+      #d2 a{
+        font-size: 40%;
+        font-weight: 500;
+        
+      }
+      #img2{
+        background-image: url(https://images5.alphacoders.com/593/thumb-1920-593989.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: right;
+        
+      }
+      #img2 h1{
+        font-size: 80%;
+        color: rgb(11, 11, 11);
+       
+      }
+      #img2 p{
+        font-size: 57%;
+        color: rgb(0, 0, 0);
+       
+      }
+      
+      #check input{
+        font-size: small;
+        width: 150%;
+        margin-left: -100%;
+        margin-top: 70%;
+        
+      }
+      .col-3{
+        margin-left: 5%;
+      }
+      #check button {
+        font-size:small;
+        font-weight: 500;
+        margin-left: -130%;
+        margin-top: 130%;
+      }
+      .col-6 h1{
+        font-family: 'Rubik Glitch', cursive;
+         font-size: 50px;
+         margin-left: -20%;
+      }
+
+    
+}
